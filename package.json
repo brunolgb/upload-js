@@ -1,0 +1,31 @@
+{
+  "name": "Uploads",
+  "main": "home.ejs",
+  "version": "1.0.0",
+  "keywords": [
+    "uploads",
+    "upload",
+    "wifi",
+    "computador",
+    "celular"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Bruno Leandro Guimarães Biana",
+    "email": "brunoleandrogb@outlook.com"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.2",
+    "os": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
